@@ -1,0 +1,49 @@
+{
+  "angularCompilerOptions": {
+    "genDir": "./generated",
+    "skipMetadataEmit": true,
+    "strictMetadataEmit": false,
+    "skipTemplateCodegen": false,
+    "fullTemplateTypeCheck": true
+  },
+  "include": [
+    "./src/**/*.module.ts"
+  ],
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "declaration": true,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": false,
+    "inlineSources": true,
+    "emitBOM": false,
+    "newLine": "lf",
+    "noEmit": false,
+    "noEmitOnError": false,
+    "noEmitHelpers": false,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitUseStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "baseUrl": "",
+    "preserveConstEnums": false,
+    "preserveSymlinks": true,
+    "pretty": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": false,
+    "stripInternal": true,
+    "outDir": "./generated"
+  }
+}

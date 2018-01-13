@@ -1,0 +1,5 @@
+<span *ngIf="test['test.test'].test?.test as testValue">{{testValue}}</span>
+
+<ng-container *ngIf="test['test.test'].test as testParam">
+    <span *ngIf="testParam as testValue">{{testValue}}</span>
+</ng-container>

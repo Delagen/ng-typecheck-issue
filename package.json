@@ -1,0 +1,23 @@
+{
+  "name": "ng-typecheck-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "ngc -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Delagen <delagen@gmail.com> (https://delagen.blogspot.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular/compiler": "~5.2.0",
+    "@angular/compiler-cli": "~5.2.0",
+    "@angular/core": "~5.2.0",
+    "@angular/forms": "~5.2.0",
+    "@angular/common": "~5.2.0",
+    "@angular/platform-browser": "~5.2.0",
+    "@angular/platform-server": "~5.2.0",
+    "rxjs": "~5.5.6",
+    "typescript": "~2.6.2"
+  }
+}
